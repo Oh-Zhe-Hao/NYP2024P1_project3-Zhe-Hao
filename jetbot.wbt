@@ -1,0 +1,458 @@
+#VRML_SIM R2023b utf8
+
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/backgrounds/protos/TexturedBackground.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/floors/protos/Floor.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/robots/nvidia/jetbot/protos/JetBot.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/robots/nvidia/jetbot/protos/JetBotRaspberryPiCamera.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/traffic/protos/TrafficCone.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/traffic/protos/DivergentIndicator.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/solids/protos/SolidBox.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/solids/protos/SolidPipe.proto"
+
+WorldInfo {
+  info [
+    "JetBot basic motion performed using a C controller."
+  ]
+  title "JetBot Basic Motion"
+  contactProperties [
+    ContactProperties {
+      material1 "jetbot rear wheel"
+      coulombFriction [
+        0
+      ]
+    }
+  ]
+}
+Viewpoint {
+  orientation 0.6295368251993655 -0.13025041264239262 -0.7659753362376558 3.454271308056773
+  position 2.029070333739179 0.36904325772464863 8.514768183929453
+  follow "JetBot"
+}
+TexturedBackground {
+  texture "empty_office"
+}
+Floor {
+  size 20 15
+  tileSize 1 1
+  appearance PBRAppearance {
+    baseColorMap ImageTexture {
+      url [
+        "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/default/worlds/textures/square_block_parquetry.jpg"
+      ]
+    }
+    roughness 1
+    metalness 0
+  }
+}
+SolidPipe {
+  translation -0.85 0.05 0.05
+  name "human(21)"
+  height 0.2
+  radius 0.05
+  thickness 0.049
+  appearance PBRAppearance {
+    baseColor 1 0.75 0.7
+    baseColorMap ImageTexture {
+      url [
+        "../../PSXgfeg9rZtrnvNut7D8uQ_Human_anatomy.jpg"
+      ]
+    }
+    roughness 0.5
+    metalness 0
+  }
+}
+SolidPipe {
+  translation -0.76 0.03 0.05
+  name "human(20)"
+  height 0.2
+  radius 0.05
+  thickness 0.049
+  appearance PBRAppearance {
+    baseColor 1 0.75 0.7
+    baseColorMap ImageTexture {
+      url [
+        "../../PSXgfeg9rZtrnvNut7D8uQ_Human_anatomy.jpg"
+      ]
+    }
+    roughness 0.5
+    metalness 0
+  }
+}
+SolidPipe {
+  translation -0.64 -0.35 0.05
+  name "human(19)"
+  height 0.2
+  radius 0.05
+  thickness 0.049
+  appearance PBRAppearance {
+    baseColor 1 0.75 0.7
+    baseColorMap ImageTexture {
+      url [
+        "../../PSXgfeg9rZtrnvNut7D8uQ_Human_anatomy.jpg"
+      ]
+    }
+    roughness 0.5
+    metalness 0
+  }
+}
+SolidPipe {
+  translation -0.69 -0.01 0.05
+  name "human(18)"
+  height 0.2
+  radius 0.05
+  thickness 0.049
+  appearance PBRAppearance {
+    baseColor 1 0.75 0.7
+    baseColorMap ImageTexture {
+      url [
+        "../../PSXgfeg9rZtrnvNut7D8uQ_Human_anatomy.jpg"
+      ]
+    }
+    roughness 0.5
+    metalness 0
+  }
+}
+SolidPipe {
+  translation -0.64 -0.09 0.05
+  name "human(17)"
+  height 0.2
+  radius 0.05
+  thickness 0.049
+  appearance PBRAppearance {
+    baseColor 1 0.75 0.7
+    baseColorMap ImageTexture {
+      url [
+        "../../PSXgfeg9rZtrnvNut7D8uQ_Human_anatomy.jpg"
+      ]
+    }
+    roughness 0.5
+    metalness 0
+  }
+}
+SolidPipe {
+  translation -0.64 -0.29 0.05
+  name "human(3)"
+  height 0.2
+  radius 0.05
+  thickness 0.049
+  appearance PBRAppearance {
+    baseColor 1 0.75 0.7
+    baseColorMap ImageTexture {
+      url [
+        "../../PSXgfeg9rZtrnvNut7D8uQ_Human_anatomy.jpg"
+      ]
+    }
+    roughness 0.5
+    metalness 0
+  }
+}
+SolidPipe {
+  translation -0.64 -0.19 0.05
+  name "human(16)"
+  height 0.2
+  radius 0.05
+  thickness 0.049
+  appearance PBRAppearance {
+    baseColor 1 0.75 0.7
+    baseColorMap ImageTexture {
+      url [
+        "../../PSXgfeg9rZtrnvNut7D8uQ_Human_anatomy.jpg"
+      ]
+    }
+    roughness 0.5
+    metalness 0
+  }
+}
+SolidPipe {
+  translation -0.74 -0.51 0.05
+  name "human(1)"
+  height 0.2
+  radius 0.05
+  thickness 0.049
+  appearance PBRAppearance {
+    baseColor 1 0.75 0.7
+    baseColorMap ImageTexture {
+      url [
+        "../../PSXgfeg9rZtrnvNut7D8uQ_Human_anatomy.jpg"
+      ]
+    }
+    roughness 0.5
+    metalness 0
+  }
+}
+SolidPipe {
+  translation -1.21 -0.59 0.05
+  name "human(4)"
+  height 0.2
+  radius 0.05
+  thickness 0.049
+  appearance PBRAppearance {
+    baseColor 1 0.75 0.7
+    baseColorMap ImageTexture {
+      url [
+        "../../PSXgfeg9rZtrnvNut7D8uQ_Human_anatomy.jpg"
+      ]
+    }
+    roughness 0.5
+    metalness 0
+  }
+}
+SolidBox {
+  translation -4.13 0 0.06
+  name "Car"
+  size 0.3 0.4 0.2
+  appearance PBRAppearance {
+    baseColor 0.1 0.4 0.1
+    baseColorMap ImageTexture {
+      url [
+        "../../Screenshot_20240116-065408.jpg"
+      ]
+    }
+    roughness 0.5
+    metalness 0
+  }
+}
+DivergentIndicator {
+  translation -3.83 0.01 0
+  height 0.09
+  radius 0.09
+}
+TrafficCone {
+  translation -3.4300069198272927 0.0299999898113485 -0.0006996080520641317
+  rotation -0.0007795914383463055 0.9999996956375194 3.1017054835593936e-05 0.011361830844903012
+  scale 0.15
+  physics Physics {
+  }
+}
+DEF JETBOT JetBot {
+  translation -1.10272 -0.0441934 -9.66221e-05
+  rotation -0.00042374988355543917 -0.002090459425551159 0.9999977252051259 -2.495355307179586
+  controller "my_controller_new"
+  supervisor TRUE
+  cameraSlot JetBotRaspberryPiCamera {
+    rotation 0 1 0 0.316799
+    width 224
+    height 224
+  }
+}
+SolidPipe {
+  translation -1.31 -0.04 0.05
+  name "human"
+  height 0.2
+  radius 0.05
+  thickness 0.049
+  appearance PBRAppearance {
+    baseColor 1 0.75 0.7
+    baseColorMap ImageTexture {
+      url [
+        "../../PSXgfeg9rZtrnvNut7D8uQ_Human_anatomy.jpg"
+      ]
+    }
+    roughness 0.5
+    metalness 0
+  }
+}
+SolidPipe {
+  translation -1.13 -0.63 0.05
+  name "human(14)"
+  height 0.2
+  radius 0.05
+  thickness 0.049
+  appearance PBRAppearance {
+    baseColor 1 0.75 0.7
+    baseColorMap ImageTexture {
+      url [
+        "../../PSXgfeg9rZtrnvNut7D8uQ_Human_anatomy.jpg"
+      ]
+    }
+    roughness 0.5
+    metalness 0
+  }
+}
+SolidPipe {
+  translation -0.64 -0.35 0.05
+  name "human(15)"
+  height 0.2
+  radius 0.05
+  thickness 0.049
+  appearance PBRAppearance {
+    baseColor 1 0.75 0.7
+    baseColorMap ImageTexture {
+      url [
+        "../../PSXgfeg9rZtrnvNut7D8uQ_Human_anatomy.jpg"
+      ]
+    }
+    roughness 0.5
+    metalness 0
+  }
+}
+SolidPipe {
+  translation -0.98 -0.65 0.05
+  name "human(6)"
+  height 0.2
+  radius 0.05
+  thickness 0.049
+  appearance PBRAppearance {
+    baseColor 1 0.75 0.7
+    baseColorMap ImageTexture {
+      url [
+        "../../PSXgfeg9rZtrnvNut7D8uQ_Human_anatomy.jpg"
+      ]
+    }
+    roughness 0.5
+    metalness 0
+  }
+}
+SolidPipe {
+  translation -1.27 -0.51 0.05
+  name "human(5)"
+  height 0.2
+  radius 0.05
+  thickness 0.049
+  appearance PBRAppearance {
+    baseColor 1 0.75 0.7
+    baseColorMap ImageTexture {
+      url [
+        "../../PSXgfeg9rZtrnvNut7D8uQ_Human_anatomy.jpg"
+      ]
+    }
+    roughness 0.5
+    metalness 0
+  }
+}
+SolidPipe {
+  translation -1.34 -0.14 0.05
+  name "human(7)"
+  height 0.2
+  radius 0.05
+  thickness 0.049
+  appearance PBRAppearance {
+    baseColor 1 0.75 0.7
+    baseColorMap ImageTexture {
+      url [
+        "../../PSXgfeg9rZtrnvNut7D8uQ_Human_anatomy.jpg"
+      ]
+    }
+    roughness 0.5
+    metalness 0
+  }
+}
+SolidPipe {
+  translation -0.8 -0.58 0.05
+  name "human(8)"
+  height 0.2
+  radius 0.05
+  thickness 0.049
+  appearance PBRAppearance {
+    baseColor 1 0.75 0.7
+    baseColorMap ImageTexture {
+      url [
+        "../../PSXgfeg9rZtrnvNut7D8uQ_Human_anatomy.jpg"
+      ]
+    }
+    roughness 0.5
+    metalness 0
+  }
+}
+SolidPipe {
+  translation -0.89 -0.63 0.05
+  name "human(2)"
+  height 0.2
+  radius 0.05
+  thickness 0.049
+  appearance PBRAppearance {
+    baseColor 1 0.75 0.7
+    baseColorMap ImageTexture {
+      url [
+        "../../PSXgfeg9rZtrnvNut7D8uQ_Human_anatomy.jpg"
+      ]
+    }
+    roughness 0.5
+    metalness 0
+  }
+}
+SolidPipe {
+  translation -1.35 -0.23 0.05
+  name "human(9)"
+  height 0.2
+  radius 0.05
+  thickness 0.049
+  appearance PBRAppearance {
+    baseColor 1 0.75 0.7
+    baseColorMap ImageTexture {
+      url [
+        "../../PSXgfeg9rZtrnvNut7D8uQ_Human_anatomy.jpg"
+      ]
+    }
+    roughness 0.5
+    metalness 0
+  }
+}
+SolidPipe {
+  translation -1.06 -0.66 0.05
+  name "human(10)"
+  height 0.2
+  radius 0.05
+  thickness 0.049
+  appearance PBRAppearance {
+    baseColor 1 0.75 0.7
+    baseColorMap ImageTexture {
+      url [
+        "../../PSXgfeg9rZtrnvNut7D8uQ_Human_anatomy.jpg"
+      ]
+    }
+    roughness 0.5
+    metalness 0
+  }
+}
+SolidPipe {
+  translation -1.34 -0.33 0.05
+  name "human(11)"
+  height 0.2
+  radius 0.05
+  thickness 0.049
+  appearance PBRAppearance {
+    baseColor 1 0.75 0.7
+    baseColorMap ImageTexture {
+      url [
+        "../../PSXgfeg9rZtrnvNut7D8uQ_Human_anatomy.jpg"
+      ]
+    }
+    roughness 0.5
+    metalness 0
+  }
+}
+SolidPipe {
+  translation -0.68 -0.43 0.05
+  name "human(12)"
+  height 0.2
+  radius 0.05
+  thickness 0.049
+  appearance PBRAppearance {
+    baseColor 1 0.75 0.7
+    baseColorMap ImageTexture {
+      url [
+        "../../PSXgfeg9rZtrnvNut7D8uQ_Human_anatomy.jpg"
+      ]
+    }
+    roughness 0.5
+    metalness 0
+  }
+}
+SolidPipe {
+  translation -1.31 -0.42 0.05
+  name "human(13)"
+  height 0.2
+  radius 0.05
+  thickness 0.049
+  appearance PBRAppearance {
+    baseColor 1 0.75 0.7
+    baseColorMap ImageTexture {
+      url [
+        "../../PSXgfeg9rZtrnvNut7D8uQ_Human_anatomy.jpg"
+      ]
+    }
+    roughness 0.5
+    metalness 0
+  }
+}
